@@ -1,12 +1,38 @@
 p {
     font-size: large;
-    color: black
+}
+a{
+    margin-right: 2%;
+}
+text{
+    font-size: large;
 }
 
-.header {
+strong{
+    font-size: larger;
+    text-decoration: underline;
+}
+
+#header {
     text-align: center;
 }
 
-#links {
-    
+.body{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+li{
+    margin-left: 10%;
+}
+
+
+body{
+    background-color: white;
+    /*color:rgba(91, 108, 124, 0.842)*/
+}
+
+button{
+    position:absolute; top:2%; right: 2%;
 }

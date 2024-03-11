@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="resume.css">
 </head>
 
-<div class="header">
+<div id="header">
     <p id="name">
         Jackson Kelsch
     </p>
@@ -11,7 +11,7 @@
         jwkelsch@gmail.com | (630)-881-0586 | Naperville, IL
     </p>
     <div id="links">
-        <a href ="https://github.com/stars/jwkelsch/lists/sample-projects" style="margin-right: 2%;">
+        <a href ="https://github.com/stars/jwkelsch/lists/sample-projects">
             GitHub      
         </a>
         <a href ="https://linkedin.com/in/jackson-kelsch-ba5059239">
@@ -23,18 +23,56 @@
 
 <div class="body">
     <div id="education">
-
+        <strong>Education</strong>
+        <ul>
+            <text>Bachelor of Science in Computer Science</text>
+            <li>North Central College | Graduated in Winter 2022 </li>
+            <p></p>
+            <text>Relevant Courses</text>
+            <li>Data Structures and Algorithms, Object Oriented Software Development, Web
+                Applications, Windows and .NET Programming, Linux Programming, Operating Systems,
+                Computer System Concepts, Algorithm Design & Analysis, Intro to AI</li>
+        </ul>
     </div>
 
     <div id="workExperience">
-
+        <strong>Work Experience</strong>
+        <ul>
+            <text>Software Engineer Intern at Cardx/Stax | 9/2022 - 11/2022</text>
+            <li>Learned how to implement Vue.js</li>
+            <li>Worked with a large existing codebase (a portal webpage)</li>
+            <li>Main project was to use Vue.js to implement adaptive functionalities based on content dependent dropdown fields</li>
+            <p></p>
+            <text>IT assistant at Advanced Data Technologies | 6/2018 - 08/2022</text>
+            <li>Assistant to head of IT department</li>
+            <li>Helped with general IT tasks, focused on problem solving technical issues</li>
+            <li>Installed/troubleshot various hardware and software</li>
+            <li>Some field work at various locations</li>
+        </ul>
     </div>
 
     <div id="sampleProjects">
-
+        <strong>Sample Projects</strong>
+        <ul>
+            <text>Cardinalnet capstone</text>
+            <li>UI based exploration of the inside of a school building, inspired by street view from google maps</li>
+            <li>Made in Javascript, HTML, CSS</li>
+            <p></p>
+            <text>Dogger + AI adaptation</text>
+            <li>Game I made to learn Python through, inspired by Frogger</li>
+            <li>I later added an AI bot to play the game flawlessly, using ideas of neural networks</li>
+        </ul>
     </div>
 
     <div id="skills">
+        <strong>Skills</strong>
+        <dl>
+            <i>Proficient: </i>
+            <text>C, C++, C#, Python, Javascript, HTML, CSS, Web Development</text>
+            <p></p>
+            <i>Familiar: </i>
+            <text>Java, Vue.js, .NET, Assembly, Linux Systems</text>
+        </dl>
 
     </div>
 
@@ -42,6 +80,8 @@
 
     </div>
 </div>
+
+<button type="button" id="darkmodetoggle"> dark mode toggle</button>
 
 <script src="content.js"></script>
 
