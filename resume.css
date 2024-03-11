@@ -1,4 +1,12 @@
 p {
     font-size: large;
-    color: blueviolet;
+    color: black
+}
+
+.header {
+    text-align: center;
+}
+
+#links {
+    
 }
